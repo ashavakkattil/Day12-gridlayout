@@ -17,7 +17,7 @@ body {
   color: var(--primary);
   line-height: 1.6;
 }
-h1,
+h1,h2,
 h3 {
   margin: 1rem 0;
 }
@@ -134,4 +134,16 @@ nav {
 }
 .section-2 div{
     padding: 1.5rem 1rem;
+}
+
+/* section-3 */
+.section-3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.section-3 div{
+    padding: 3rem 2rem;
+}
+.section-3 div:last-child{
+    padding-left: 0rem;
 }
