@@ -71,6 +71,13 @@ nav {
 .main-menu ul li {
   padding: 0.8rem 1.2rem;
   text-align: center;
+  cursor: pointer;
+}
+.main-menu ul li:hover {
+  background: #333333;
+}
+.main-menu ul li:hover a {
+  color: #ffffff;
 }
 .section-1,
 .section-2,
@@ -107,7 +114,6 @@ nav {
   grid-row-gap: 1rem;
   text-align: center;
   min-height: 400px;
-
 }
 .side-bar div {
   display: grid;
@@ -182,8 +188,8 @@ footer {
   .side-bar h1 {
     font-size: 1.8rem;
   }
-  .section-3 div:last-child{
-      padding: 3rem;
-      text-align: center;
+  .section-3 div:last-child {
+    padding: 3rem;
+    text-align: center;
   }
 }
